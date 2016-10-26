@@ -26,22 +26,34 @@
 <body>
     <ons-page ng-controller="AppController as app">
         <ons-tabbar>
-          <ons-tab page="page1.html" label="アレルギー" icon="fa-heart" active="true"></ons-tab>
-          <ons-tab page="page2.html" label="こんだて" icon="fa-file-text-o"></ons-tab>
-          <ons-tab page="page2.html" label="名簿" icon="fa-child"></ons-tab>
-          <ons-tab page="page2.html" label="設定" icon="fa-gear"></ons-tab>
+          <ons-tab page="allergy.html" label="アレルギー" icon="fa-heart" active="true"></ons-tab>
+          <ons-tab page="menu.html" label="こんだて" icon="fa-file-text-o"></ons-tab>
+          <ons-tab page="roster.html" label="名簿" icon="fa-child"></ons-tab>
+          <ons-tab page="config.html" label="設定" icon="fa-gear"></ons-tab>
         </ons-tabbar>
     </ons-page>
 
-    <ons-template id="page1.html">
+    <ons-template id="allergy.html">
       <ons-page>
-        Page 1
+        アレルギー
       </ons-page>
     </ons-template>
 
-    <ons-template id="page2.html">
+    <ons-template id="menu.html">
       <ons-page>
-        Page 2
+        こんだて
+      </ons-page>
+    </ons-template>
+    
+    <ons-template id="roster.html">
+      <ons-page>
+        名簿
+      </ons-page>
+    </ons-template>
+    
+    <ons-template id="config.html">
+      <ons-page>
+        設定
       </ons-page>
     </ons-template>
 
